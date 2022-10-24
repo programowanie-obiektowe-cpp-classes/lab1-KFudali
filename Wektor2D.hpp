@@ -12,13 +12,13 @@ class Wektor2D
             X = x;
             Y = y;
         };
-        void getX()
+        double getX()
         {
-            cout << X << "\n";
+            return X;
         };
-        void getY()
+        double getY()
         {
-            cout << Y << "\n";
+            return Y;
         };
         void setX(double x)
         {
